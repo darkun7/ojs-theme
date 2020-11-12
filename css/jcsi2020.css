@@ -12,6 +12,10 @@
   color: white;
 }
 
+.pkp_head_wrapper, .has_site_logo .pkp_head_wrapper{
+  padding-top: 20px !important;
+}
+
 .pkp_navigation_primary_row .pkp_navigation_primary_wrapper ul li a, .pkp_navigation_primary_row .pkp_navigation_primary_wrapper ul li a{
   color: white  !important;
   font-weight: 400 !important;
@@ -25,16 +29,38 @@
   text-align: center;
 }
 /* Header */
-.is_img{
-  max-width: 200px;
-  margin-left: 50px;
+.pkp_site_name .is_img,
+.is_img img{
+  /* max-width: 200px; */
+	margin: 0 auto !important;
+	display: block !important;
+  /* margin-left: 50px; */
+  /* min-height: 80px; */
+
 }
+.pkp_site_name .is_img img{
+  max-height: 80px !important;
+}
+
 .pkp_structure_head{
-  background-image: none;
   background-color: var(--primer);
+  /* background: rgb(153,51,204);
+  background: linear-gradient(127deg, rgba(153,51,204,1) 45%, rgba(185,145,232,1) 100%); */
+  background-image: url("https://raw.githubusercontent.com/darkun7/ojs-theme/main/asset/logo_csi_journal.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-size: 250px 125px;
+  background-position: 3% 20%; /* background-position: 50% 10%; */
   /* background: rgb(153,51,204); */
   /* background: linear-gradient(180deg, rgba(153,51,204,1) 47%, rgba(9,9,121,1) 48%, rgba(102,51,153,1) 92%); */
 }
+@media only screen and (max-width: 780px) {
+  .pkp_structure_head {
+    background-image: none !important;
+  }
+}
+
 #navigationPrimary,
 #pkp_content_nav{
   /* padding: 0 5% !important; */

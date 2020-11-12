@@ -1,0 +1,150 @@
+:root {
+  --merah: #e1322d;  /*Merah*/
+  --oren: #ff6100; /*Orange*/
+  --kuning: #ffcf4c; /*Kuning*/
+  --gray: #F1F1F1;
+  --dark: #004aad; /*Blue*/
+}
+
+body{
+  background-image: url(https://anwardani.github.io/css-ojs3/noisy_grid.png) !important;
+}
+.pkp_structure_content {
+  background-color: white !important;
+  margin-bottom: 30px !important;
+  border-radius: 0 0 30px 30px;
+}
+
+/* HEADER */
+.headerNavigationContainer,
+.pkp_structure_head{
+  background: rgb(255,207,76);
+  background: linear-gradient(127deg, rgba(255,207,76,1) 35%, rgba(255,97,0,1) 130%) !important;
+  /* background-color: var(--kuning) !important; */
+}
+#navigationUser{
+  background-color: var(--oren);
+  min-width: 150px;
+  max-width: 180px;
+  margin-right: 0px;
+  border-radius: 0 0 20px 20px;
+  font-weight: bold;
+}
+
+.pkp_navigation_primary_wrapper{
+  padding: 0 30px !important;
+  font-weight: bold;
+  background-color: var(--oren);
+}
+.pkp_site_name .is_img,
+.is_img img{
+	margin: 0 auto !important;
+	display: block !important;
+}
+.pkp_site_name .is_img img{
+  max-height: 40px !important;
+  margin-bottom: 30px !important;
+}
+
+
+
+
+/* FOOTER */
+.pkp_structure_footer_wrapper{
+  background-color: var(--kuning) !important;
+}
+.pkp_brand_footer{
+  margin-top: 10px;
+  border-top: 3px solid var(--merah);
+  padding-top: 20px;
+}
+
+/* MISC */
+.current_issue h2{
+  border-bottom: 2px solid var(--dark);
+  color: var(--dark) !important;
+  font-weight: bold !important;
+}
+.pkp_structure_main h1, .pkp_structure_main h2, .pkp_structure_main h3, .pkp_structure_main h4{
+  margin-top: 20px !important;
+  position: static !important;
+}
+.section{
+  border-top: 0px;
+}
+/* PDF */
+.cmp_button_wire, .cmp_button_wire:focus, .obj_galley_link, .obj_galley_link{
+  border: 1px solid var(--oren) !important;
+  color: var(--oren) !important;
+}
+.cmp_button_wire:hover, .cmp_button_wire:focus, .obj_galley_link:hover, .obj_galley_link:focus{
+  background: var(--oren) !important;
+  color: white !important;
+}
+
+.cmp_button_wire:hover > a, .cmp_button_wire:focus, .obj_galley_link:hover > a, .obj_galley_link:focus > a{
+  background: var(--oren) !important;
+  color: white !important;
+}
+
+
+/* list */
+li ul li a{
+  color: black !important;
+}
+
+li ul li a :hover{
+  color: black;
+  background-color: var(--orange) !important;
+}
+
+/* SIDE BLOCK MENU*/
+.pkp_block .content li,
+.pkp_block .content a{
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  display: block;
+}
+
+.pkp_block .content:hover > a{
+  color: black;
+}
+
+.pkp_block .content li{
+padding: 10px;
+border-bottom: 2px solid transparent;
+border-left: 4px solid transparent;
+margin-bottom: 2px;
+background: var(--oren);
+color: white;
+font-weight: bold;
+}
+
+.pkp_block .content li:hover{
+  background: var(--kuning);
+  /* color: black !important; */
+  border-left: 4px solid var(--oren);
+}
+
+.pkp_block .content li:first-child{
+  padding: 10px;
+  border-bottom: 2px solid transparent;
+  border-left: 4px solid transparent;
+  margin-bottom: 2px;
+  background: var(--dark);
+  color: white;
+}
+
+.image-tools{
+  max-width: 120px;
+  margin: 0 auto;
+}
+
+.image-index{
+  max-height: 55px;
+  width: auto;
+  padding: 2px;
+  border: 2px solid var(--dark);
+  margin: 5px 10px;
+}
