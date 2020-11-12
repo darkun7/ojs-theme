@@ -1,0 +1,9 @@
+<p>
+<script type="text/javascript">// <![CDATA[
+var element = document.createElement("link");
+element.setAttribute("rel", "stylesheet");
+element.setAttribute("type", "text/css");
+element.setAttribute("href", "url.css");
+document.getElementsByTagName("body")[0].appendChild(element);
+// ]]></script>
+</p>
