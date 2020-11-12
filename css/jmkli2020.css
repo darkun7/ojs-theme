@@ -35,6 +35,7 @@ body{
   padding: 0 30px !important;
   font-weight: bold;
   background-color: var(--oren);
+  color: var(--dark);
 }
 .pkp_site_name .is_img,
 .is_img img{
@@ -90,11 +91,11 @@ body{
 
 /* list */
 li ul li a{
-  color: black !important;
+  color: var(--dark) !important;
 }
 
 li ul li a :hover{
-  color: black;
+  color: var(--dark);
   background-color: var(--orange) !important;
 }
 
@@ -108,7 +109,7 @@ li ul li a :hover{
 }
 
 .pkp_block .content:hover > a{
-  color: black;
+  color: var(--dark);
 }
 
 .pkp_block .content li{
@@ -142,9 +143,13 @@ font-weight: bold;
 }
 
 .image-index{
-  max-height: 55px;
+  max-height: 32px;
   width: auto;
-  padding: 2px;
+  padding: 3px;
   border: 2px solid var(--dark);
-  margin: 5px 10px;
+  margin: 3px 3px;
+  background-color: white;
+  -moz-box-shadow: 3px 3px 3px rgba(68, 68, 68, 0.6);
+  -webkit-box-shadow: 3px 3px 3px rgba(68, 68, 68, 0.6);
+  box-shadow: 3px 3px 3px rgba(68, 68, 68, 0.6);
 }
