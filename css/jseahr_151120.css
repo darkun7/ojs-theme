@@ -1,0 +1,134 @@
+/* Custom theme by Darkun7 */
+.pkp_structure_page{
+	max-width: none !important;
+	margin: 0px !important;
+}
+.pkp_head_wrapper{
+	margin: 0px !important;
+}
+.pkp_site_name{
+    margin-left: 10% !important;
+}
+.pkp_navigation_primary_wrapper{
+	margin-right: 10% !important;
+    margin-left: 10% !important;
+}
+.pkp_head_wrapper{
+	width: auto !important;
+}
+#navigationUser{
+	margin-right: 50%;
+    background-color: #E1AD21 !important;
+    border-radius: 50px;
+    padding-right: 10px;
+	max-width: 150px;
+}
+#navigationUser a{
+	text-align: left !important;
+	color: #273C75;
+}
+#navigationUser a span{
+	color: #fff;
+}
+
+.pkp_brand_footer {
+    background: none !important;
+}
+
+@media only screen and (min-width: 360px) {
+	.pkp_navigation_user{
+		max-width: 150px !important;
+        margin-right: 10% !important;
+	}
+	#navigationUser{
+		margin-top: 20px;
+    }
+    .pkp_site_name{
+        margin-left: 5% !important;
+    }
+}
+
+@media only screen and (min-width: 85.375em) {
+	#navigationUserWrapper{
+		/*margin-right: 25%;*/
+	}
+}
+/* End theme by Darkun7 */
+
+
+.current_issue h2 {
+    display: inline-block;
+    padding-bottom: 0.5em;
+    border-bottom: 3px solid #f7bc4a;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000000;
+}
+.pkp_structure_head {
+    background-image: none!important;
+}
+.pkp_site_name .is_text{
+   color:#ffffff;
+}
+.pkp_navigation_primary_wrapper {
+    background-color: #e1ad21;
+}
+    .pkp_navigation_primary_row {
+        background: #e1ad21;
+    }
+    #pkp_content_nav{
+background: #e1ad21;
+    }
+/*test*/
+/* Custom theme by Firman */
+.pkp_head_wrapper{
+   display:flex !important;
+   flex-wrap: wrap  !important;
+   justify-content: center  !important;
+   align-items: center  !important;
+}
+
+.pkp_site_name_wrapper{
+   flex: 0 1 auto !important; 
+   order: 1  !important;
+}
+
+.pkp_navigation_user_wrapper{
+	padding-right: 10%  !important;
+	width: 35% !important;
+}
+@media (max-width: 992px) {
+.pkp_head_wrapper{
+	padding-top: 35px !important;
+}
+}
+
+#pkp_content_nav{
+	order:3;
+	flex-shrink: 0;
+	width: 100%;
+	/*padding: 0 25%;  all centered*/
+	padding: 0 15% 0 9%;
+}
+.pkp_navigation_user_wrapper{
+	left: 10 !important;
+}
+@media only screen and (min-width: 1700px) {
+  #pkp_content_nav{
+    padding: 0 23% 0 16%;
+  }
+  
+  .pkp_navigation_user_wrapper{
+	padding-right: 15% !important;
+	width: 40% !important;
+  }
+
+}
+
+.#navigation_user_wrapper{
+   position: unset  !important;
+   order: 2  !important;
+   flex: initial  !important;
+}
+
+/* End theme by Firman*/
