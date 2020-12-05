@@ -1,8 +1,9 @@
 :root {
-    --biru   : #00A8D8;
+    --biru   : #66CBE7;
     --kuning : #F9A936;
 }
 
+.pkp_brand_footer {display: none;}
 .pkp_site_name {padding-top: 0 !important; padding-bottom: 0 !important}
 .pkp_site_name > a {padding-top: 0; padding-bottom: 0;}
 .pkp_site_name .is_img img {max-height: 200px !important;}
@@ -26,15 +27,15 @@ a.block_make_submission_link{
 }
 
 .pkp_block .content p,
-.pkp_block .content ul,
+.pkp_block .content li,
 .pkp_block .content a{
-  text-decoration: none;
-  text-align: center;
-  color: white;
-  display: block;
+  text-decoration: none !important;
+  text-align: center !important;
+  color: white !important;
+  display: block !important;
 }
 
-.pkp_block .content ul,
+.pkp_block .content li,
 .pkp_block .content p{
 	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
   margin-top: 0px;
@@ -47,7 +48,7 @@ a.block_make_submission_link{
   font-weight: bold;
 }
 
-.pkp_block .content ul:hover,
+.pkp_block .content li:hover,
 .pkp_block .content p:hover{
   background: var(--kuning);
 	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
@@ -55,14 +56,18 @@ a.block_make_submission_link{
 /* border-left: 2px solid var(--sekunder); */
 }
 
-.pkp_block .content ul:first-child,
+span.title,
 .pkp_block .content p:first-child{
   padding: 10px;
   border-bottom: 2px solid transparent;
   border-left: 2px solid transparent;
   margin-bottom: 2px;
   background: var(--kuning);
-  color: white;
+  color: white !important;
+  display: block !important;
+  font-size: 14px !important;
+  text-align: center !important;
+  margin-bottom: 0px !important;
   border-radius: 3px;
   box-shadow: inset 0 -1em 1em rgba(0,0,0,0.1);
 }
