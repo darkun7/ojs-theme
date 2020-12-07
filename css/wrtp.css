@@ -1,7 +1,15 @@
+:root {
+    --biru        : #273C75;
+    --hijau       : #006752;
+    --kuning      : #FDBA34;
+    --kuningcerah : #F7ED55;
+}
+
+
 .current_issue h2 {
     display: inline-block;
     padding-bottom: 0.5em;
-    border-bottom: 3px solid #f7bc4a;
+    border-bottom: 3px solid var(--biru);
     text-transform: uppercase;
     font-weight: 700;
     color: #000000;
@@ -12,57 +20,141 @@
 .pkp_site_name .is_text{
    color:#ffffff;
 }
-.pkp_navigation_primary_wrapper {
-    background-color: black;
-}
-    .pkp_navigation_primary_row {
-        background: black;
-    }
-    #pkp_content_nav{
-background: black;
-    }
-    .pkp_navigation_user > li > a,
-    .pkp_navigation_user > li.in_focus > a,
-    .pkp_navigation_user > li > a:hover,
-    .pkp_navigation_user > li > a:focus {
-        color: #ffffff;
-    }
-    #navigationPrimary a:hover, #navigationPrimary a:focus {
-        color: #ffffff!important;
-    }
-    #navigationPrimary a
-    {
-        color: #ffffff!important;
-    }
-    #navigationPrimary > li > a:hover, #navigationPrimary > li > a:focus {
-        border-color: #ffffff!important;
-    }
-    .pkp_nav_list ul a:hover, .pkp_nav_list ul a:focus{
-        background: #ffffff!important;
-    }
-
 
 /* Custom Theme by Darkun7 */
+
+.pkp_navigation_primary_wrapper {
+    background-color: transparent;
+}
+.pkp_navigation_primary_row {
+    background: transparent;
+}
+#pkp_content_nav{
+    background: transparent;
+}
+.pkp_navigation_user > li > a,
+.pkp_navigation_user > li.in_focus > a,
+.pkp_navigation_user > li > a:hover,
+.pkp_navigation_user > li > a:focus {
+    color: #fff;
+}
+#navigationPrimary a:hover, #navigationPrimary a:focus {
+    color: #fff !important;
+}
+#navigationPrimary a
+{
+    color: #fff !important;
+}
+#navigationPrimary > li > a:hover, #navigationPrimary > li > a:focus {
+    border-color: var(--kuning) !important;
+}
+.pkp_nav_list ul a:hover, .pkp_nav_list ul a:focus{
+    background: var(--kuning) !important;
+}
+
 body{
-  background:
-  linear-gradient( 180deg,
-    rgb(0, 103, 82) 160px,
-    rgb(0, 0, 0) 160px,
-    rgb(0, 0, 0) 200px,
-    rgb(221, 221, 221) 200px,
-    rgb(221, 221, 221) 100%) !important
+  /* background:rgb(221, 221, 221); */
+  background:#ffffff !important;
 }
 .pkp_structure_page{
 	box-shadow: none !important;
+  margin-top: 0px !important;
+  border-radius: 0 0 20px 20px;
 }
 .pkp_brand_footer{
   background: #fff !important;
 }
-/* SUBMISSION BUTTON */
 
+/* SUBMISSION BUTTON */
 a.block_make_submission_link{
 	padding: 5px 46px !important;
 }
 a.block_make_submission_link:hover{
-	color: #FDBA34 !important;
+	color: var(--kuningcerah) !important;
+}
+
+/* BANNER */
+.pkp_head_wrapper{
+  background-color: var(--hijau);
+  background-image: url("https://raw.githubusercontent.com/darkun7/ojs-theme/main/asset/MonumenTriumviraat-darker35.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 195px;
+  background-position: 3% 20%;
+}
+#navigationUserWrapper{
+  top: 0 !important;
+  width: 100% !important;
+  background: var(--hijau);
+}
+.is_img{
+  margin-top: 20px;
+}
+
+/* MISC */
+
+.pkp_block .content p,
+.pkp_block .content li,
+.pkp_block .content a{
+  text-decoration: none !important;
+  text-align: center !important;
+  color: white !important;
+  display: block !important;
+}
+
+.blockhead{
+  padding: 5px !important;
+  border-radius: 3px;
+  text-transform: capitalize;
+}
+
+.pkp_block .content li,
+.pkp_block .content p{
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  margin-top: 0px;
+  padding: 4px;
+  border-bottom: 2px solid transparent;
+  border-left: 2px solid transparent;
+  margin-bottom: 2px;
+  background: var(--hijau);
+  color: white;
+  font-weight: bold;
+}
+
+.pkp_block .content li:hover,
+.pkp_block .content p:hover{
+  background: var(--hijau);
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  color: var(--kuning);
+/* border-left: 2px solid var(--sekunder); */
+}
+
+span.title,
+.pkp_block .content p:first-child{
+  padding: 10px;
+  border-bottom: 2px solid transparent;
+  border-left: 2px solid transparent;
+  margin-bottom: 2px;
+  background: var(--hijau);
+  color: white !important;
+  display: block !important;
+  font-size: 14px !important;
+  text-align: center !important;
+  margin-bottom: 0px !important;
+  border-radius: 3px;
+  box-shadow: inset 0 -1em 1em rgba(0,0,0,0.1);
+}
+
+.image-index{
+  max-height: 45px;
+  width: auto;
+  padding: 3px;
+  border: 2px solid var(--hijau);
+  margin: 3px 3px;
+  background-color: white;
+  -moz-box-shadow: 3px 3px 3px rgba(68, 68, 68, 0.6);
+  -webkit-box-shadow: 3px 3px 3px rgba(68, 68, 68, 0.6);
+  box-shadow: 3px 3px 3px rgba(68, 68, 68, 0.6);
 }
