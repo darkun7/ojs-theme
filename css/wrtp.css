@@ -5,22 +5,25 @@
     --kuningcerah : #F7ED55;
 }
 
-
 .current_issue h2 {
     display: inline-block;
-    padding-bottom: 0.5em;
-    border-bottom: 3px solid var(--biru);
+    padding-bottom: 0.5em !important;
+    border-bottom: 3px solid var(--biru) !important;
     text-transform: uppercase;
     font-weight: 700;
     color: #000000;
 }
 .pkp_structure_head {
     background-image: none!important;
+    background-color: transparent !important;
+    /* background-color: var(--biru) !important; */
 }
 .pkp_site_name .is_text{
    color:#ffffff;
 }
-
+.obj_galley_link{
+   background-color: var(--biru) !important;
+}
 /* Custom Theme by Darkun7 */
 
 .pkp_navigation_primary_wrapper {
@@ -68,6 +71,7 @@ body{
 /* SUBMISSION BUTTON */
 a.block_make_submission_link{
 	padding: 5px 46px !important;
+  background: var(--biru) !important;
 }
 a.block_make_submission_link:hover{
 	color: var(--kuningcerah) !important;
@@ -75,23 +79,30 @@ a.block_make_submission_link:hover{
 
 /* BANNER */
 .pkp_head_wrapper{
-  background-color: var(--hijau);
+  background-color: var(--biru); /* main */
   background-image: url("https://raw.githubusercontent.com/darkun7/ojs-theme/main/asset/MonumenTriumviraat-darker35.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 195px;
+  height: 220px;
   background-position: 3% 20%;
 }
 #navigationUserWrapper{
   top: 0 !important;
   width: 100% !important;
-  background: var(--hijau);
+  background: var(--biru); /* main */
 }
 .is_img{
   margin-top: 20px;
 }
+.pkp_site_name .is_img img{
+  max-height: 100px !important;
+}
 
+/* FOOTER */
+#pkp_content_footer{
+  border-bottom: 20px solid var(--biru) !important;
+}
 /* MISC */
 
 .pkp_block .content p,
@@ -117,14 +128,14 @@ a.block_make_submission_link:hover{
   border-bottom: 2px solid transparent;
   border-left: 2px solid transparent;
   margin-bottom: 2px;
-  background: var(--hijau);
+  background: var(--biru); /* main */
   color: white;
   font-weight: bold;
 }
 
 .pkp_block .content li:hover,
 .pkp_block .content p:hover{
-  background: var(--hijau);
+  background: var(--biru); /* main */
 	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
   font-weight: 700;
   color: var(--kuning);
@@ -137,7 +148,7 @@ span.title,
   border-bottom: 2px solid transparent;
   border-left: 2px solid transparent;
   margin-bottom: 2px;
-  background: var(--hijau);
+  background: var(--biru); /* main */
   color: white !important;
   display: block !important;
   font-size: 14px !important;
@@ -151,7 +162,7 @@ span.title,
   max-height: 45px;
   width: auto;
   padding: 3px;
-  border: 2px solid var(--hijau);
+  border: 2px solid var(--biru); /* main */
   margin: 3px 3px;
   background-color: white;
   -moz-box-shadow: 3px 3px 3px rgba(68, 68, 68, 0.6);
