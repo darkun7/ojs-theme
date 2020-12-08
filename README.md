@@ -1,11 +1,12 @@
+
 <p align="center">
   <a href="https://github.com/darkun7/ojs-theme/">
-    <img src="asset/OJS_emblem.png" alt="OJS emblem" width="65px">
   </a>
- 
   <h3 align="center">OJS THEME</h3>
+  <p align="center">This repository used to reference for other Open Journal System front-end developer</p>
 </p>
-This repository used to reference for other Open Journal System front-end developer
+
+<img src="asset/OJS_emblem.png" alt="OJS emblem" width="170px">
 
 # Table of Content
 * [Managed Journal](#managed-journal)
