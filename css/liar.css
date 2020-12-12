@@ -1,6 +1,8 @@
 :root {
-    --biru   : #66CBE7;
-    --kuning : #F9A936;
+    --biru        : #00a8d8;
+    --biru-langit : #70cff5;
+    --kuning      : #F9A936;
+    --abu         : #636e72;
 }
 
 .pkp_brand_footer {display: none;}
@@ -9,11 +11,24 @@
 .pkp_site_name .is_img img {max-height: 200px !important;}
 .pkp_site_name_wrapper {padding-left: 0; padding-right: 0;}
 .pkp_navigation_user_wrapper {top: 0; right: 0; padding-right:30px;}
+.pkp_navigation_primary.pkp_nav_list {
+    border-right: white;
+    border-right: 1px;
+    color: white !important;
+}
+.pkp_navigation_primary_row {
+    background: #70cff5;
+    font-weight: bold;
+    color: white !important;
+}
+.pkp_navigation_primary_row :hover{
+    font-weight: bold;
+    color: #2d3436 !important;
+}
 .pkp_structure_page {margin-top:  20px !important; margin-bottom:20 !important; padding-bottom: 20 !important;}
 .pkp_block{border-bottom: 1px solid #e3e3e3;}
 #customblock-menukanan .content p:nth-child(10){border-bottom: 1px solid #e3e3e3;}
 
-/* Custom Theme by Darkun7 */
 /* SUBMISSION BUTTON */
 a.block_make_submission_link{
 	padding: 5px 46px !important;
@@ -31,29 +46,34 @@ a.block_make_submission_link{
 .pkp_block .content a{
   text-decoration: none !important;
   text-align: center !important;
-  color: white !important;
+  color: white;
   display: block !important;
+}
+.pkp_block .content a{
+  padding: 4px;
 }
 
 .pkp_block .content li,
 .pkp_block .content p{
 	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
   margin-top: 0px;
-  padding: 4px;
-  border-bottom: 2px solid transparent;
-  border-left: 2px solid transparent;
+  /* padding: 4px; */
+  border-bottom: 3px solid;
+  border-bottom-color: white;
+  transition: 0.4s ease-in-out;
   margin-bottom: 2px;
-  background: var(--biru);
-  color: white;
+  background: var(--biru-langit);
   font-weight: bold;
 }
 
+.pkp_block .content p:hover,
 .pkp_block .content li:hover,
-.pkp_block .content p:hover{
-  background: var(--kuning);
+.pkp_block .content a:hover{
+  background-color: white;
+  border-bottom-color: var(--biru);
 	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
   font-weight: 700;
-/* border-left: 2px solid var(--sekunder); */
+  color: var(--biru) !important;
 }
 
 span.title,
@@ -69,7 +89,6 @@ span.title,
   text-align: center !important;
   margin-bottom: 0px !important;
   border-radius: 3px;
-  box-shadow: inset 0 -1em 1em rgba(0,0,0,0.1);
 }
 
 .image-index{
@@ -84,7 +103,8 @@ span.title,
   box-shadow: 3px 3px 3px rgba(68, 68, 68, 0.6);
 }
 
-.image-tools{
-  max-width: 120px;
-  margin: 0 auto;
+.image-collaboration{
+    background-color: white;
+    max-width: 120px;
+    margin: 0 auto;
 }
