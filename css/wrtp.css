@@ -112,6 +112,7 @@ a.block_make_submission_link:hover{
   text-align: center !important;
   color: white !important;
   display: block !important;
+  margin-bottom: 8px !important
 }
 
 .blockhead{
