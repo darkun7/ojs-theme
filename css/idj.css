@@ -1,4 +1,5 @@
 :root {
+    --lightyellow   : rgb(254, 196, 0);
     --light         : rgb(239, 255, 232);
     --yellow        : rgb(255, 153, 31);
     --green         : rgb(19, 152, 106);
@@ -64,9 +65,9 @@ body{
     rgb(255, 255, 255) 100%) !important; */
   background:
   linear-gradient( 180deg,
-  var(--light) 130px,
-  var(--green) 130px,
-  var(--green) 170px,
+  var(--lightyellow) 130px,
+  var(--darkblue) 130px,
+  var(--darkblue) 170px,
   rgb(255, 255, 255) 170px,
   rgb(255, 255, 255) 100%) !important;
 
@@ -108,20 +109,20 @@ a.block_make_submission_link:hover{
     color: #000000;
 }
 .pkp_structure_head {
-    background-color: var(--light) !important;
+    background-color: var(--lightyellow) !important;
     background-image: none!important;
 }
 .pkp_site_name .is_text{
    color:white;
 }
 .pkp_navigation_primary_wrapper {
-    background-color: var(--green);
+    background-color: var(--darkblue);
 }
 .pkp_navigation_primary_row {
     background: var(--yellow);
 }
 #pkp_content_nav{
-  background: var(--green);
+  background: var(--darkblue);
 }
 
 /*SIDE*/
@@ -134,7 +135,7 @@ a.block_make_submission_link:hover{
 
 /* #customblock-Guidelines li, */
 .sidemenu-head{
-  background-color: var(--green) !important;
+  background-color: var(--darkblue) !important;
   display: block !important;
   padding: 5px !important;
   text-align: center !important;
@@ -146,9 +147,9 @@ a.block_make_submission_link:hover{
 .sidemenu-list li{
   margin-bottom: 8px;
 
-  background-color: var(--green) !important;
+  background-color: var(--darkblue) !important;
   display: block !important;
-  padding: 5px !important;
+  padding: 10px 5px !important;
   text-align: center !important;
   color: white !important;
   text-decoration: none;
