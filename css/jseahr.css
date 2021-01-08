@@ -43,14 +43,16 @@
 /* NEW FRAME */
 body{
 	/* white */
+	background: url("https://raw.githubusercontent.com/anwardani/css-ojs3/master/imgs/backjaps.png");
 	background:
 	linear-gradient(
 		180deg,
 		rgba(39,60,117,1) 130px,
 		rgba(225,173,33,1) 130px,
 		rgba(225,173,33,1) 170px,
-		rgba(255,255,255,1) 170px,
-		rgba(255,255,255,1) 100%) !important;
+		rgba(255,255,255,0.1) 170px,
+		rgba(255,255,255,0.1) 100%),
+		url("https://raw.githubusercontent.com/anwardani/css-ojs3/master/imgs/backjaps.png") !important;
 }
 .pkp_structure_page{
 	max-width: 1200 !important;
