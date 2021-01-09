@@ -56,8 +56,13 @@
 }
 
 body{
+  background: url("https://raw.githubusercontent.com/anwardani/css-ojs3/master/imgs/backjaps.png");
+  background:
+  linear-gradient( 180deg,
+    rgba(255, 255, 255, 0.4) 170px,
+    rgba(255, 255, 255, 1) 100%),
+    url("https://raw.githubusercontent.com/anwardani/css-ojs3/master/imgs/backjaps.png") !important;
   /* background:rgb(221, 221, 221); */
-  background:#ffffff !important;
 }
 .pkp_structure_page{
 	box-shadow: none !important;
