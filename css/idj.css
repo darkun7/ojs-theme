@@ -63,13 +63,15 @@ body{
     rgb(255, 153, 31) 170px,
     rgb(255, 255, 255) 170px,
     rgb(255, 255, 255) 100%) !important; */
+  background: url("https://raw.githubusercontent.com/darkun7/ojs-theme/main/asset/pattern_line.png");
   background:
   linear-gradient( 180deg,
   var(--lightyellow) 130px,
   var(--darkblue) 130px,
   var(--darkblue) 170px,
-  rgb(255, 255, 255) 170px,
-  rgb(255, 255, 255) 100%) !important;
+  rgba(255, 255, 255, 0.1) 170px,
+  rgba(255, 255, 255, 0.1) 100%),
+  url("https://raw.githubusercontent.com/darkun7/ojs-theme/main/asset/pattern_line.png") !important;
 
 }
 .pkp_structure_page{
