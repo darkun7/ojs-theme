@@ -1,17 +1,23 @@
+:root {
+   --background  : #F7F0EA;    /*Cream */
+	 --main        : #273c75;    /*Blue */
+   --secondary   : #E1AD21;    /*Yellow */
+}
+
 /* Custom theme by Darkun7 */
 .pkp_head_wrapper{
 	width: auto !important;
 }
 #navigationUser{
 	margin-right: 50%;
-    background-color: #E1AD21 !important;
+    background-color: var(--secondary) !important;
     border-radius: 50px;
     padding-right: 10px;
 	max-width: 150px;
 }
 #navigationUser a{
 	text-align: left !important;
-	color: #273C75;
+	color: var(--main);
 }
 #navigationUser a span{
 	color: #fff;
@@ -67,7 +73,7 @@ body{
 }
 .pkp_structure_footer_wrapper{
 	background: rgb(255,255,255);
-	background: linear-gradient(180deg, rgba(255,255,255,1) 75%, rgba(221,221,221,1) 100%) !important;
+	background: linear-gradient(180deg, var(--background) 75%, rgba(221,221,221,1) 100%) !important;
 }
 .pkp_structure_footer_wrapper{
 	border-radius: 0 0 20px 20px;
@@ -79,11 +85,36 @@ a.block_make_submission_link{
 	padding: 5px 46px !important;
 }
 a.block_make_submission_link:hover{
-	color: #E1AD21 !important;
+	color: var(--secondary) !important;
 }
 
-/* End theme by Darkun7 */
+/* Side Block */
+.block-head {
+	text-transform: capitalize;
+	display: block;
+	padding: 10px 5px !important;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+.side-block {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background-color: var(--main);
+}
 
+.side-block li {
+	border-bottom: 8px var(--background) solid;
+}
+
+.side-block a {
+	display: block;
+	padding: 5px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
 
 .current_issue h2 {
     display: inline-block;
@@ -100,11 +131,19 @@ a.block_make_submission_link:hover{
    color:#ffffff;
 }
 .pkp_navigation_primary_wrapper {
-    background-color: #e1ad21;
+    background-color: var(--secondary);
 }
-    .pkp_navigation_primary_row {
-        background: #e1ad21;
-    }
-    #pkp_content_nav{
-background: #e1ad21;
-    }
+.pkp_navigation_primary_row {
+    background: var(--secondary);
+}
+#pkp_content_nav{
+		background: var(--secondary);
+}
+
+/* Main Background */
+.pkp_structure_page,
+.pkp_structure_content,
+.pkp_block
+{
+	background-color: var(--background) !important;
+}
