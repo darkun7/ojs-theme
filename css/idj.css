@@ -4,6 +4,8 @@
     --yellow        : rgb(255, 153, 31);
     --green         : rgb(19, 152, 106);
     --darkblue      : rgb(39, 60, 117);
+    /* --background    : #F1EFFC; */
+    --background    : white;
 }
 
 /* Custom theme by Darkun7 */
@@ -87,7 +89,7 @@ body{
 }
 .pkp_structure_footer_wrapper{
 	background: rgb(255,255,255);
-	background: linear-gradient(180deg, rgba(255,255,255,1) 75%, rgba(221,221,221,1) 100%) !important;
+	background: linear-gradient(180deg, var(--background) 75%, rgba(221,221,221,1) 100%) !important;
 }
 .pkp_structure_footer_wrapper{
 	border-radius: 0 0 20px 20px;
@@ -167,4 +169,11 @@ a.block_make_submission_link:hover{
 #customblock-Guidelines a{
   color: white !important;
   font-weight: bold;
+}
+/* Main Background */
+.pkp_structure_page,
+.pkp_structure_content,
+.pkp_block
+{
+	background-color: var(--background) !important;
 }
