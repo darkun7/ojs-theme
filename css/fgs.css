@@ -1,0 +1,177 @@
+:root {
+    --light-white   : rgb(250,  244, 244);
+    --red           : rgb(210, 42, 31);
+    --darkpurple    : rgb(115, 50, 141);
+    --background    : rgb(219, 205, 229);
+}
+
+/* Custom theme by Darkun7 */
+.pkp_head_wrapper{
+	width: auto !important;
+}
+#navigationUser{
+	margin-right: 50%;
+    background-color: var(--darkpurple) !important;
+    border-radius: 50px;
+    padding-right: 10px;
+	max-width: 150px;
+}
+#navigationUser a{
+	text-align: left !important;
+	/* color: var(--red); */
+  color: white !important;
+}
+#navigationUser a span{
+	color: #fff;
+}
+#navigationPrimary a{
+  color: white !important;
+}
+#navigationPrimary ul a:hover{
+  background-color: var(--darkpurple);
+}
+.pkp_brand_footer {
+    background: none !important;
+}
+
+/* search */
+.pkp_head_wrapper .pkp_search .search_controls .search_prompt:hover, .pkp_head_wrapper .pkp_search .search_controls .search_prompt:focus{
+  color: white;
+}
+
+@media only screen and (min-width: 360px) {
+  	.pkp_navigation_user{
+  		max-width: 150px !important;
+      margin-right: 10% !important;
+  	}
+  	#navigationUser{
+  		margin-top: 20px;
+    }
+    .pkp_site_name{
+      margin-left: 5% !important;
+    }
+}
+
+/* NEW FRAME */
+body{
+	/* white */
+	/* background:
+  linear-gradient(
+    180deg,
+    rgb(239,255,232) 130px,
+    rgb(255, 153, 31) 130px,
+    rgb(255, 153, 31) 170px,
+    rgb(255, 255, 255) 170px,
+    rgb(255, 255, 255) 100%) !important; */
+  background: url("https://raw.githubusercontent.com/darkun7/ojs-theme/main/asset/pattern_dialine.png");
+  background:
+  linear-gradient( 180deg,
+  var(--light-white) 130px,
+  var(--red) 130px,
+  var(--red) 170px,
+  rgba(255, 255, 255, 0.1) 170px,
+  rgba(255, 255, 255, 0.1) 100%),
+  url("https://raw.githubusercontent.com/darkun7/ojs-theme/main/asset/pattern_line.png") !important;
+
+}
+.pkp_structure_page{
+	max-width: 1200 !important;
+	margin: 0px auto 25px auto !important;
+	box-shadow: none !important;
+}
+.pkp_head_wrapper{
+	margin: 0px !important;
+}
+.pkp_site_name{
+  margin-left: 0px !important;
+}
+.pkp_structure_footer_wrapper{
+	background: rgb(255,255,255);
+	background: linear-gradient(180deg, var(--background) 75%, rgba(221,221,221,1) 100%) !important;
+}
+.pkp_structure_footer_wrapper{
+	border-radius: 0 0 20px 20px;
+}
+
+/* SUBMISSION BUTTON */
+
+a.block_make_submission_link{
+	padding: 5px 46px !important;
+}
+a.block_make_submission_link:hover{
+	/* color: var(--darkpurple) !important; */
+}
+
+.current_issue h2 {
+    display: inline-block;
+    padding-bottom: 0.5em;
+    border-bottom: 3px solid var(--darkpurple);
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000000;
+}
+.pkp_structure_head {
+    background-color: var(--light-white) !important;
+    background-image: none!important;
+}
+.pkp_site_name .is_text{
+   color:white;
+}
+.pkp_navigation_primary_wrapper {
+    background-color: var(--red);
+}
+.pkp_navigation_primary_row {
+    background: var(--darkpurple);
+}
+#pkp_content_nav{
+  background: var(--red);
+}
+
+/*SIDE*/
+.sidemenu-list a{
+  color: #000;
+}
+.sidemenu-list a:hover{
+  color: var(--darkpurple);
+}
+
+/* #customblock-Guidelines li, */
+.sidemenu-head{
+  background-color: var(--red) !important;
+  display: block !important;
+  padding: 5px !important;
+  text-align: center !important;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 5px !important;
+  box-shadow: inset 0 -1em 1em rgba(0,0,0,0.1);
+}
+.sidemenu-list li{
+  margin-bottom: 8px;
+
+  background-color: var(--red) !important;
+  display: block !important;
+  padding: 10px 5px !important;
+  text-align: center !important;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 5px !important;
+}
+#customblock-Guidelines .sidemenu-list :hover{
+  background-color: var(--darkpurple) !important;
+}
+
+#customblock-Guidelines li{
+  margin-bottom: 5px;
+}
+#customblock-Guidelines a{
+  color: white !important;
+  font-weight: bold;
+}
+/* Main Background */
+.pkp_structure_page,
+.pkp_structure_content,
+.pkp_block
+{
+	background-color: var(--background) !important;
+}
