@@ -57,14 +57,14 @@
 }
 
 body{
-  background: url("https://raw.githubusercontent.com/anwardani/css-ojs3/master/imgs/backjaps.png");
+  background: url("https://raw.githubusercontent.com/darkun7/ojs-theme/main/asset/pattern_backjaps-unej.png");
   background:
   linear-gradient( 180deg,
     rgba(39,60,117,1) 130px,
     rgba(39,60,117,1) 210px,
     rgba(255, 255, 255, 0.4) 170px,
     rgba(255, 255, 255, 1) 100%),
-    url("https://raw.githubusercontent.com/anwardani/css-ojs3/master/imgs/backjaps.png") !important;
+    url("https://raw.githubusercontent.com/darkun7/ojs-theme/main/asset/pattern_backjaps-unej.png") !important;
   /* background:rgb(221, 221, 221); */
 }
 .pkp_structure_page{
