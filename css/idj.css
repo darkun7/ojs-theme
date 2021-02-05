@@ -65,7 +65,7 @@ body{
     rgb(255, 153, 31) 170px,
     rgb(255, 255, 255) 170px,
     rgb(255, 255, 255) 100%) !important; */
-  background: url("https://raw.githubusercontent.com/darkun7/ojs-theme/main/asset/pattern_line.png");
+  background: url("https://raw.githubusercontent.com/darkun7/ojs-theme/main/asset/pattern_line-unej.png");
   background:
   linear-gradient( 180deg,
   var(--lightyellow) 130px,
@@ -73,7 +73,7 @@ body{
   var(--darkblue) 170px,
   rgba(255, 255, 255, 0.1) 170px,
   rgba(255, 255, 255, 0.1) 100%),
-  url("https://raw.githubusercontent.com/darkun7/ojs-theme/main/asset/pattern_line.png") !important;
+  url("https://raw.githubusercontent.com/darkun7/ojs-theme/main/asset/pattern_line.png-unej") !important;
 
 }
 .pkp_structure_page{
