@@ -149,3 +149,15 @@ border-left: 2px solid var(--sekunder);
 .pkp_head_wrapper .pkp_search .search_controls .search_prompt:hover, .pkp_head_wrapper .pkp_search .search_controls .search_prompt:focus{
   color: white !important;
 }
+.description img,
+.image-index{
+  max-height: 40px;
+  width: auto;
+  padding: 3px;
+  border: 2px solid var(--dark);
+  margin: 3px 3px;
+  background-color: white;
+  -moz-box-shadow: 3px 3px 3px rgba(68, 68, 68, 0.6);
+  -webkit-box-shadow: 3px 3px 3px rgba(68, 68, 68, 0.6);
+  box-shadow: 3px 3px 3px rgba(68, 68, 68, 0.6);
+}
