@@ -1,0 +1,70 @@
+/* Custom theme by Darkun7 */
+:root {
+    --biru        : rgb(39, 72, 160);
+    --gelap       : rgb(2, 40, 84);
+    --kuning      : #FFBD59;
+}
+
+#headerNavigationContainer{
+	background:linear-gradient(180deg, var(--biru) 0%, var(--biru) 120px, var(--gelap) 120px) !important
+}
+.pkp_brand_footer{
+	background: transparent !important;
+}
+
+.current_issue h2 {
+    display: inline-block;
+    padding-bottom: 0.5em;
+    border-bottom: 3px solid #022854;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000000;
+}
+.pkp_structure_head {
+    background-image: none!important;
+}
+.pkp_site_name .is_text{
+   color:#f8f8f8;
+}
+.pkp_navigation_primary_wrapper {
+    background-color: #022854;
+}
+    .pkp_navigation_primary_row {
+        background: #022854;
+    }
+    #pkp_content_nav{
+background: #022854;
+    }
+    .pkp_navigation_user > li > a, 
+    .pkp_navigation_user > li.in_focus > a, 
+    .pkp_navigation_user > li > a:hover, 
+    .pkp_navigation_user > li > a:focus {
+        color: #ffffff!important;
+    }
+    #navigationPrimary a:hover, #navigationPrimary a:focus {
+        color: #f8f8f8!important;
+    }
+    #navigationPrimary a
+    {
+        color: #f8f8f8!important;
+    }
+    #navigationPrimary > li > a:hover, #navigationPrimary > li > a:focus {
+        border-color: #022854!important;
+    }
+    .pkp_nav_list ul a:hover, .pkp_nav_list ul a:focus{
+        background: #022854!important;
+    }
+    .pkp_head_wrapper .pkp_search .search_controls .search_prompt:hover{
+        color: #bc3a03!important;
+    }
+    .pkp_head_wrapper .pkp_search .search_controls .search_prompt:focus{
+        color: #bc3a03!important;
+    }
+    .pkp_head_wrapper .pkp_search .search_controls .search_prompt {
+        color: #f8f8f8!important;
+    
+    }
+
+body{
+  background: url("https://raw.githubusercontent.com/darkun7/ojs-theme/main/asset/pattern_subtle.jpg") !important;
+}
