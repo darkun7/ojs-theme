@@ -105,8 +105,8 @@ body{
 	background: linear-gradient( 180deg, var(--primer) 150px,
 	 var(--sekunder) 150px,
 	 var(--sekunder) 190px,
-	  rgba(255,255,255,0.1) 190px, 
-	  rgba(255,255,255,0.1) 100%), 
+	  rgba(255,255,255,0.6) 190px, 
+	  rgba(255,255,255,0.8) 100%), 
 	  url("https://raw.githubusercontent.com/darkun7/ojs-theme/main/asset/pattern_batiktribal.jpg") !important;
 }
 .pkp_structure_main{
