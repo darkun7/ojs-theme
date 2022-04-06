@@ -3,8 +3,15 @@
 	--lightprimer : #9c67d9;
 	--sekunder : #663399;
 	--background :rgb(212, 212, 212)A;
+	--uri : #6298ae;
 }
-/* Custom theme by Darkun7 */
+/* 
+  Custom theme by Darkun7 
+  Website: https://kulacino.my.id/
+  Github: https://github.com/darkun7/
+  Github Repository: https://github.com/darkun7/ojs-theme
+*/
+
 .pkp_head_wrapper{
 	width: auto !important;
 }
@@ -101,13 +108,13 @@
 }
 /* NEW FRAME */
 body{
-	background: url("https://raw.githubusercontent.com/darkun7/ojs-theme/main/asset/pattern_batiktribal.jpg");
+	background: url("https://raw.githubusercontent.com/darkun7/ojs-theme/main/asset/pattern_decorative.jpg");
 	background: linear-gradient( 180deg, var(--primer) 150px,
 	 var(--sekunder) 150px,
 	 var(--sekunder) 190px,
-	  rgba(255,255,255,0.6) 190px, 
-	  rgba(255,255,255,0.8) 100%), 
-	  url("https://raw.githubusercontent.com/darkun7/ojs-theme/main/asset/pattern_batiktribal.jpg") !important;
+	  rgba(255,255,255,0.3) 190px, 
+	  rgba(255,255,255,0.6) 100%), 
+	  url("https://raw.githubusercontent.com/darkun7/ojs-theme/main/asset/pattern_decorative.jpg") !important;
 }
 .pkp_structure_main{
 	font-family: "Noto Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
@@ -140,24 +147,30 @@ a.block_make_submission_link:hover{
 	max-width: 120px;
 	margin: 0 auto;
 }
+.block_make_submission_link {
+	color: white !important;
+}
 .pkp_block .content li, .pkp_block .content a{
+	font-family: Century Gothic;
 	text-decoration: none;
 	text-align: center;
-	color: white;
+	color: var(--uri);
 	display: block;
 }
 .pkp_block .content li{
+	font-family: Tahoma;
 	padding: 10px;
 	border-bottom: 2px solid transparent;
-	border-left: 2px solid transparent;
+	border-left: 3px solid transparent;
 	margin-bottom: 2px;
-	background: var(--primer);
-	color: white;
+	color: var(--uri);
+	/*background: var(--primer);
+	color: white;*/
 	font-weight: bold;
 }
 .pkp_block .content li:hover{
-	background: var(--lightprimer);
-	border-left: 2px solid var(--sekunder);
+	/*background: var(--lightprimer);*/
+	border-left: 3px solid var(--sekunder);
 }
 .pkp_block .content li:first-child{
 	padding: 10px;
