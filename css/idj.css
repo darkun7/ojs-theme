@@ -177,3 +177,15 @@ a.block_make_submission_link:hover{
 {
 	background-color: var(--background) !important;
 }
+
+.image-index{
+  max-height: 32px;
+  width: auto;
+  padding: 3px;
+  border: 2px solid var(--dark);
+  margin: 3px 3px;
+  background-color: white;
+  -moz-box-shadow: 3px 3px 3px rgba(68, 68, 68, 0.6);
+  -webkit-box-shadow: 3px 3px 3px rgba(68, 68, 68, 0.6);
+  box-shadow: 3px 3px 3px rgba(68, 68, 68, 0.6);
+}
