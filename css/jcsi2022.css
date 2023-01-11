@@ -185,8 +185,8 @@ a.block_make_submission_link:hover{
 	color: white !important;
 }
 .description img, .image-index{
-	max-height: 40px;
-	width: auto;
+	height: 40px;
+	width: 150px;
 	padding: 3px;
 	border: 2px solid var(--dark);
 	margin: 3px 3px;
